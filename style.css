@@ -993,3 +993,43 @@ p {
       font-size: large;
       font-weight: 500;
   }
+  /* Gallery Styles here blow */
+  
+
+  div.gallery {
+    font-size: 300;
+    padding: 5px;
+    border: 1px solid #ccc;
+    text-align: center;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  .gal {
+    text-align: center;
+    margin: 20px;
+
+
+  }
+  /* News Style blow here */
+
+  .newspic {
+    font-size: 300;
+    padding: 5px;
+    border: 1px solid #ccc;
+    text-align: center;
+    width: 180px;
+  }
+

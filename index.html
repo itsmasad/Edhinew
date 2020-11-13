@@ -44,7 +44,7 @@
     </script>
 </head>
 
-<body>
+<body onload="myFunction()">
     <!-- preloader -->
     <div id="preloader">
         <div class="spinner">
@@ -92,7 +92,7 @@
                             <div class="main-menu">
                                 <nav>
                                     <ul>
-                                        <li class="menu-item menu-item-has-children"><a href="#">Home </a>
+                                        <li class="menu-item menu-item-has-children"><a href="./index.html">Home </a>
                                         </li>
                                         <li class="menu-item">
                                             <a href="#">Organization</a></li>
@@ -101,11 +101,11 @@
                                         <li class="menu-item menu-item-has-children"><a href="#">Edhi World</a>
                                         </li>
 
-                                        <li class="menu-item menu-item-has-children"><a href="#">Events</a>
+                                        <li class="menu-item menu-item-has-children"><a href="./Events.html">Events</a>
 
                                         </li>
 
-                                        <li class="menu-item menu-item-has-children"><a href="#">Gallery</a>
+                                        <li class="menu-item menu-item-has-children"><a href="./Gallery.html">Gallery</a>
 
                                         </li>
 
@@ -576,13 +576,14 @@ This proved to be a loosing battle against the disease, and her helplessness inc
                 <div class="col-lg-6 col-md-12">
                     <div class="nusafe-img-box">
                         <div class="nusafe-img">
-                            <img src="assets/img/blog-single-3.jpg" alt="">
+                            <!-- <img  src="assets/img/blog-single-3.jpg" alt=""> -->
+                            <div id="hoverevent" class="hoverpicture"></div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12 wow">
                     <div class="single-event-box">
-                        <div class="event-content">
+                        <div onmouseover="mouseOver1()" class="event-content">
                             <div class="event-meta">
                                 <span>time: 10Am to 2pm</span>
                             </div>
@@ -593,7 +594,7 @@ This proved to be a loosing battle against the disease, and her helplessness inc
                         </div>
                     </div>
                     <div class="single-event-box">
-                        <div class="event-content">
+                        <div onmouseover="mouseOver2()" class="event-content">
                             <div class="event-meta">
                                 <span>time: 10Am to 2pm</span>
                             </div>
@@ -604,7 +605,7 @@ This proved to be a loosing battle against the disease, and her helplessness inc
                         </div>
                     </div>
                     <div class="single-event-box">
-                        <div class="event-content">
+                        <div onmouseover="mouseOver3()" class="event-content">
                             <div class="event-meta">
                                 <span>time: 10Am to 2pm</span>
                             </div>
@@ -786,121 +787,6 @@ This proved to be a loosing battle against the disease, and her helplessness inc
     </section>
 
 
-    <section class="nusafe-event event_v2 pb-40">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 offset-lg-3 text-center ">
-                    <div class="section-title">
-                        <span class="span-after">our Blog </span>
-                        <h2>EDHI News </h2>
-                    </div>
-                </div>
-            </div>
-
-
-
-            <div class="row">
-                <div class="col-lg-4 col-md-12 wow animated" style="visibility: visible;">
-                    <div class="single-event-box">
-                        <div class="event-content">
-                            <div class="img-blog">
-                                <img src="assets/img/blog/blog-single-1.jpg" />
-                            </div>
-                            <div class="event-meta">
-                                <span>Category NEWS | Comments</span>
-                            </div>
-                            <a href="#" class="event-date">14<span>OCT</span></a>
-                            <h3><a href="#">Clean Water for Childreen</a></h3>
-                            <p>Hales of firmament beginning seas yielding won void in land Fowl midst had said made of
-                                male evening</p>
-                        </div>
-                    </div>
-                    <div class="single-event-box">
-                        <div class="event-content">
-                            <div class="img-blog">
-                                <img src="assets/img/blog/blog-single-1.jpg" />
-                            </div>
-                            <div class="event-meta">
-                                <span>Category NEWS |  Comments</span>
-                            </div>
-                            <a href="#" class="event-date green-bg">14<span>OCT</span></a>
-                            <h3><a href="#">Education For Every Child</a></h3>
-                            <p>Hales of firmament beginning seas yielding won void in land Fowl midst had said made of
-                                male evening</p>
-                        </div>
-                    </div>
-                   
-                   
-                   
-                </div>
-                <div class="col-lg-4 col-md-12 wow animated" style="visibility: visible;">
-                    <div class="single-event-box">
-                        <div class="event-content">
-                            <div class="img-blog">
-                                <img src="assets/img/blog/blog-single-1.jpg" />
-                            </div>
-                            <div class="event-meta">
-                                <span>Category NEWS | Comments</span>
-                            </div>
-                            <a href="#" class="event-date">14<span>OCT</span></a>
-                            <h3><a href="#">Clean Water for Childreen</a></h3>
-                            <p>Hales of firmament beginning seas yielding won void in land Fowl midst had said made of
-                                male evening</p>
-                        </div>
-                    </div>
-                    <div class="single-event-box">
-                        <div class="event-content">
-                            <div class="img-blog">
-                                <img src="assets/img/blog/blog-single-1.jpg" />
-                            </div>
-                            <div class="event-meta">
-                                <span>Category NEWS |  Comments</span>
-                            </div>
-                            <a href="#" class="event-date green-bg">14<span>OCT</span></a>
-                            <h3><a href="#">Education For Every Child</a></h3>
-                            <p>Hales of firmament beginning seas yielding won void in land Fowl midst had said made of
-                                male evening</p>
-                        </div>
-                    </div>
-                   
-                   
-                   
-                </div>
-            <div class="col-lg-4 col-md-12 wow animated" style="visibility: visible;">
-                <div class="single-event-box">
-                    <div class="event-content">
-                        <div class="img-blog">
-                            <img src="assets/img/blog/blog-single-1.jpg" />
-                        </div>
-                        <div class="event-meta">
-                            <span>Category NEWS | Comments</span>
-                        </div>
-                        <a href="#" class="event-date">14<span>OCT</span></a>
-                        <h3><a href="#">Clean Water for Childreen</a></h3>
-                        <p>Hales of firmament beginning seas yielding won void in land Fowl midst had said made of
-                            male evening</p>
-                    </div>
-                </div>
-                <div class="single-event-box">
-                    <div class="event-content">
-                        <div class="img-blog">
-                            <img src="assets/img/blog/blog-single-1.jpg" />
-                        </div>
-                        <div class="event-meta">
-                            <span>Category NEWS |  Comments</span>
-                        </div>
-                        <a href="#" class="event-date green-bg">14<span>OCT</span></a>
-                        <h3><a href="#">Education For Every Child</a></h3>
-                        <p>Hales of firmament beginning seas yielding won void in land Fowl midst had said made of
-                            male evening</p>
-                    </div>
-                </div>
-               
-            </div>
-             </div>
-        </div>
-    </div>
-    </section>
 
 
     <!-- brand-partner  -->
@@ -971,7 +857,26 @@ This proved to be a loosing battle against the disease, and her helplessness inc
         </div>
     </footer>
 
+    <script>
+
+function myFunction() {
+    document.getElementById("hoverevent").style.backgroundImage = "url('assets/img/blog-single-3.jpg')" ;
+}
+function mouseOver1() {
+  document.getElementById("hoverevent").style.backgroundImage = "url('assets/img/blog-single-3.jpg')" ;
+}
+
+function mouseOver2() {
+  document.getElementById("hoverevent").style.backgroundImage = "url('assets/img/service/service-bg.jpg')" ;
+}
+function mouseOver3() {
+  document.getElementById("hoverevent").style.backgroundImage = "url('assets/img/new/edhi-hunger.jpg')" ;
+}
+
+
     </script>
+
+    
     <!-- scroll_up -->
     <a id="scroll_up"><i class="ti-arrow-up"></i></a>
     <!-- jquery -->

@@ -3407,7 +3407,7 @@ reqirment-area css
 	background: #f6f6f6;
 	z-index: 1;
 }
-.question-area:before{
+/* .question-area:before{
 	position: absolute;
 	content: '';
 	top: 0;
@@ -3425,7 +3425,7 @@ reqirment-area css
 	height: 100%;
 	background: url(../img/about-us/question-after.png) no-repeat;
 	background-position: right;
-    z-index: -1;
+    z-index: -1; */
 }
 .question-content-area .card {
     margin-bottom: 25px;
@@ -4336,3 +4336,12 @@ Start bread-croumb css
 .fuxKIT:hover .sc-gZMcBi {
     color: white;
 }
+
+/* Event Hover Style Here */
+	.hoverpicture {
+		/* background: url(../img/blog-single-3.jpg) no-repeat; */
+		/* background-image: url(../img/blog-single-3.jpg); */
+		width: 100%;
+		border-radius: 5px;
+		height: 740px;
+	}
